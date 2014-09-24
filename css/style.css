@@ -875,7 +875,7 @@
 		
 			.main > header p
 			{
-				margin: 2em 0 0 0;
+				
 				padding: 0;
 			}
 
@@ -928,6 +928,7 @@
 				padding-top: 0;
 				background: #fff;
 			}
+
 
 #first header {
 	background: url('../images/sectionbg.jpg') repeat;
