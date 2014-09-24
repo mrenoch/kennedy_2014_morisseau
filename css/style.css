@@ -874,8 +874,9 @@
 		
 			.main > header h2
 			{
-				font-size: 2.0em;
+				font-size: 1.75em;
 				margin-bottom: 0;
+				text-align: center;
 			}
 		
 			.main > header p
@@ -905,11 +906,7 @@
 			
 			.main > .content.style1
 			{
-				background:	url('images/bgtr.svg') top right no-repeat,
-							url('images/bgbl.svg') bottom left no-repeat,
-							url('images/bgbl.svg') bottom left no-repeat,
-							url('images/overlay.png'),
-							linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+				background:	url('../images/header-dark.jpg') top right no-repeat;
 			}
 
 			.main > .content.style2
