@@ -820,13 +820,13 @@
 	{
 		position: relative;
 		margin: 0;
-		background-image:			url('images/overlay.png'),			url('../images/topbg.jpg');
-		background-size:			auto,								cover;
+		background-image:			url('images/overlay.png'),			url('../images/sectionbg.jpg');
+		background-size:			auto,								auto;
 		background-position:		top left,							top left;
-		background-repeat:			repeat,								no-repeat;
-		padding: 8em 0 8em 0;
+		background-repeat:			repeat,								repeat;
+		padding: 4em 0 2em 0;
 		text-align: center;
-		color: #fff;
+		color: #222;
 	}
 	
 		#header header
@@ -842,7 +842,7 @@
 			
 			#header header p
 			{
-				margin-top: .25em;
+				margin-top: -1.15em;
 				padding: 0;
 				font-size: 1.25em;
 				font-style: italic;
@@ -868,21 +868,23 @@
 		.main > header
 		{
 			background: #fff;
-			padding: 5em 0 5em 0;
+			padding: 3em 0 5em 0;
 			margin: 0;
 		}
 		
 			.main > header h2
 			{
-				font-size: 1.75em;
+				font-size: 1.5em;
 				margin-bottom: 0;
 				text-align: center;
+				color: #f9f9f9;
 			}
 		
 			.main > header p
 			{
-				
-				padding: 0;
+				color: #f9f9f9;
+				padding: 1em 0 0 0;
+				text-align: center;
 			}
 
 		.main > .content
@@ -906,7 +908,7 @@
 			
 			.main > .content.style1
 			{
-				background:	url('../images/header-dark.jpg') top right no-repeat;
+				background:	url('../images/bio_bg.jpg') center/cover no-repeat;
 			}
 
 			.main > .content.style2
@@ -933,7 +935,10 @@
 
 
 #first header {
-	background: url('../images/sectionbg.jpg') repeat;
+		background-image:			url('images/overlay.png'),			url('../images/topbg.jpg');
+		background-size:			auto,								cover;
+		background-position:		top left,							top left;
+		background-repeat:			repeat,								no-repeat;
 }
 
 #second header {
