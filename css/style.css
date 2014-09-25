@@ -35,7 +35,7 @@
 	{
 		font-family: 'Lato', sans-serif;
 		font-weight: 300;
-		font-size: 17pt;
+		font-size: 15pt;
 		line-height: 1.75em;
 		color: #111;
 	}
@@ -45,6 +45,7 @@
 		color: #111;
 		margin: 0 0 1em 0;
 		line-height: 1.5em;
+		
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -190,13 +191,16 @@
 	
 	.featured
 	{
-		text-align: center;
+	
 	}
 	
 		.featured p
 		{
-			text-align: center;
+			font-size: .875em;
+			line-height: 1.75em;
 		}
+
+
 
 	/* Sections/Article */
 	
@@ -283,9 +287,9 @@
 				}
 			.image.circle 
 			{
-				border-radius: 100%;
+				border-radius: 50%;
 				width: 200px;
-				height: 200px;
+				padding: 0 20px 20px 0;
 			}
 	/* List */
 
@@ -337,13 +341,13 @@
 		ul.menu
 		{
 			cursor: default;
+			margin: 2em 0 0 0;
 		}
 		
 			ul.menu li
 			{
 				display: inline-block;
 				line-height: 1em;
-				border-left: solid 1px #e6e6e6;
 				padding: 0 0 0 0.5em;
 				margin: 0 0 0 0.5em;
 			}
@@ -662,7 +666,6 @@
 		.button.alt
 		{
 			color: inherit;
-			box-shadow: inset 0 0 0 1px #e6e6e6;
 			background: none;
 		}
 		
@@ -680,7 +683,6 @@
 			.dark .button
 			{
 				background: rgba(255,255,255,0.15);
-				box-shadow: inset 0 0 0 1px #fff;
 				color: #fff;
 			}
 			
@@ -698,7 +700,6 @@
 			.dark .button.alt
 			{
 				background: none;
-				box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
 			}
 
 				.dark input[type="button"].alt:hover,
@@ -707,8 +708,14 @@
 				.dark .button.alt:hover
 				{
 					background: rgba(255,255,255,0.15);
-					box-shadow: inset 0 0 0 1px #fff;
+					
 				}
+				
+		.return {
+			text-align: center;
+			margin: 1em 0;
+		}		
+				
 
 	/* Feature Icon */
 
@@ -820,14 +827,15 @@
 	{
 		position: relative;
 		margin: 0;
-		background: url('../images/d67_gradient.jpg') center/cover no-repeat;
-		padding: 4em 0 2em 0;
+		background: url('../images/d67_section_01.jpg') center/cover no-repeat;
+		padding: 12em 0 4em 0;
 		text-align: center;
-		color: #d3762f;
+		color: #ff8309;
 	}
 	
 		#header header
 		{
+			margin-bottom: 2em;
 		}
 		
 			#header header h1
@@ -868,6 +876,11 @@
 			padding: 3em 0 5em 0;
 			margin: 0;
 		}
+
+		.main > header .narrow
+		{
+			margin: 0 3em;
+		}
 		
 			.main > header h2
 			{
@@ -886,7 +899,7 @@
 
 		.main > .content
 		{
-			padding: 6em 0 6em 0;
+			padding: 3em 0 6em 0;
 		}
 
 			.main > .content > .container
@@ -905,15 +918,21 @@
 			
 			.main > .content.style1
 			{
-				background:	url('../images/bio_bg.jpg') center/cover no-repeat;
+				background:	url('../images/d67_gradient_02.jpg') top/cover no-repeat;
+				text-align: left;
+			}
+			
+			.main > .content.style1 h2 {
+				color: #f9f9f9;
+				font-size: 30px;
+				text-shadow: 1px 1px 1px #333;
+				text-align: center;
 			}
 
 			.main > .content.style2
 			{
-				background:	url('images/bgtr.svg') top right no-repeat,
-							url('images/bgbl.svg') bottom left no-repeat,
-							url('images/overlay.png'),
-							linear-gradient(45deg, #384955, #655361, #85505f);
+				background:	url('../images/d67_gradient_03.jpg') top/cover no-repeat;
+				text-align: left;	
 			}
 
 			.main > .content.style3
@@ -931,14 +950,49 @@
 			}
 
 
-#first header {
-	background:	url('../images/d67_section_02.jpg') center/cover no-repeat;
+	#first header {
+		background:	url('../images/d67_section_02.jpg') center/cover no-repeat;
+	}
 
-}
+	#second header {
+		background: url('../images/d67_section_03.jpg') repeat;
+	}
 
-#second header {
-	background: url('../images/corkboard_01.jpg') center/cover no-repeat;
-}
+/*********************************************************************************/
+/* About the Playwright                                                                        */
+/*********************************************************************************/
+
+	.style1 .title
+	{
+		text-align: center;
+	}
+
+
+/*********************************************************************************/
+/* Explore the Play
+/*********************************************************************************/
+
+	.style2 .title
+	{
+		text-align: center;
+	}
+
+	.style2 h2 {
+		color: #f9f9f9;
+		font-size: 30px;
+		text-shadow: 1px 1px 1px #333;
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* Voices of Detroit
+/*********************************************************************************/
+
+	.poem {
+		font-size: 1.5em;
+		line-height: 1.8em;
+	}
+
 
 
 
@@ -1148,3 +1202,103 @@
 			{
 				opacity: 1.0;
 			}
+
+/*EMK Branding*/
+
+.container.emk {
+width: 100%;
+height: 35px;
+background-color: #000;
+padding: 0px 30px 0px 30px;
+position: fixed;
+top: 0;
+z-index: 6000;
+}
+
+body.logged-in .container.emk {
+	margin-top:25px;
+}
+
+.inner.emk .left {
+	float: left;
+}
+
+.inner.emk .right {
+	float: right;
+	margin: 3px 65px 0 0;
+}
+
+.inner.emk, .inner.emk a {
+	color: #fff;
+	font-family: trajanproregular,"trajan pro regular",trajan,serif;	
+	font-size: .875em;
+}
+
+.inner.emk a:hover {
+	color: #ccc;
+}
+
+ul.emk-menu li {
+	list-style-type: none;
+	text-align: right;
+}
+
+.emk-dropdown {
+	position: relative;
+	left: 0;
+  	z-index: 1000;
+  	display: none;
+  	float: right;
+  	min-width: 160px;
+  	padding: 10px;
+  	list-style: none;
+  	background-color: #000;
+  	border: none;
+	text-align: right;
+}
+
+ul.emk-menu li > ul.emk-dropdown > li {
+	margin: 0;
+}
+
+ul.emk-menu li.dropdown:hover {
+	cursor: pointer;
+}
+
+li.dropdown:hover > ul.emk-dropdown {
+  	display: block;
+}
+
+@media (max-width: 767px) {
+
+.inner.emk .right {
+	float: right;
+	margin: 3px 45px 0 0;
+}
+
+		.inner.emk, .inner.emk a {
+			color: #fff;
+			font-family: trajanproregular,"trajan pro regular",trajan,serif;	
+			font-size: .875em;
+		}
+		.emk-dropdown {
+			position: relative;
+			left: 0;
+	  		z-index: 1000;
+  			display: none;
+  			float: right;
+  			min-width: 160px;
+  			padding: 10px;
+  			list-style: none;
+  			background-color: #000;
+  			border: none;
+			text-align: right;
+	}
+		li.dropdown:hover > ul.emk-dropdown {
+ 		 	display: block;
+ 	 		position: relative;
+			left: 0;
+			margin: 0;
+	}
+
+}
