@@ -820,13 +820,10 @@
 	{
 		position: relative;
 		margin: 0;
-		background-image:			url('images/overlay.png'),			url('../images/sectionbg.jpg');
-		background-size:			auto,								auto;
-		background-position:		top left,							top left;
-		background-repeat:			repeat,								repeat;
+		background: url('../images/d67_gradient.jpg') center/cover no-repeat;
 		padding: 4em 0 2em 0;
 		text-align: center;
-		color: #222;
+		color: #d3762f;
 	}
 	
 		#header header
@@ -877,12 +874,12 @@
 				font-size: 1.5em;
 				margin-bottom: 0;
 				text-align: center;
-				color: #f9f9f9;
+				color: #333;
 			}
 		
 			.main > header p
 			{
-				color: #f9f9f9;
+				color: #333;
 				padding: 1em 0 0 0;
 				text-align: center;
 			}
@@ -935,10 +932,8 @@
 
 
 #first header {
-		background-image:			url('images/overlay.png'),			url('../images/topbg.jpg');
-		background-size:			auto,								cover;
-		background-position:		top left,							top left;
-		background-repeat:			repeat,								no-repeat;
+	background:	url('../images/d67_section_02.jpg') center/cover no-repeat;
+
 }
 
 #second header {
