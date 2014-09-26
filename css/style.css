@@ -929,6 +929,20 @@
 				text-align: center;
 			}
 
+			.main > .content.style2 h2 {
+				color: #f9f9f9;
+				font-size: 30px;
+				text-shadow: 1px 1px 1px #333;
+				text-align: center;
+			}
+			
+			.main > .content.style3 h2 {
+				color: #f9f9f9;
+				font-size: 30px;
+				text-shadow: 1px 1px 1px #333;
+				text-align: center;
+			}
+			
 			.main > .content.style2
 			{
 				background:	url('../images/d67_gradient_03.jpg') top/cover no-repeat;
@@ -937,10 +951,8 @@
 
 			.main > .content.style3
 			{
-				background:	url('images/bgtr.svg') top right no-repeat,
-							url('images/bgbl.svg') bottom left no-repeat,
-							url('images/overlay.png'),
-							linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+				background:	url('../images/d67_gradient.jpg') top/cover no-repeat;
+				text-align: left;	
 			}
 
 			.main > .content.style4
@@ -950,16 +962,14 @@
 			}
 
 
-	#first header {
-		background:	url('../images/d67_section_02.jpg') center/cover no-repeat;
-	}
+			#first header {
+				background:	url('../images/d67_section_02.jpg') center/cover no-repeat;
+			}
+		
 
-	#second header {
-		background: url('../images/d67_section_03.jpg') repeat;
-	}
-	#third header {
-		background: url('../images/d67_section_04.jpg') repeat;
-	}
+			#third header {
+				background: url('../images/d67_section_04.jpg') center/cover no-repeat;
+			}
 	
 
 /*********************************************************************************/
@@ -986,6 +996,20 @@
 		font-size: 30px;
 		text-shadow: 1px 1px 1px #333;
 		text-align: center;
+	}
+
+	#second header {
+		background: url('../images/d67_section_03.jpg') repeat;
+		color: #f9f9f9;
+	}
+	
+	#second header h2, #second header p {
+		color: #f9f9f9;
+		text-shadow: 1px 1px 1px #333;
+	}	
+	
+	#second .row {
+		margin: 3em 0 0 0;
 	}
 
 /*********************************************************************************/
