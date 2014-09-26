@@ -229,7 +229,7 @@
 			}
 
 	/* Image */
-
+		
 		.image
 		{
 			position: relative;
@@ -637,7 +637,7 @@
 			-webkit-appearance: none;
 			position: relative;
 			display: inline-block;
-			background: #3d3d3d;
+			background: #333;
 			padding: 0.85em 3em 0.85em 3em;
 			border-radius: 0.25em;
 			cursor: pointer;
@@ -929,6 +929,20 @@
 				text-align: center;
 			}
 
+			.main > .content.style2 h2 {
+				color: #f9f9f9;
+				font-size: 30px;
+				text-shadow: 1px 1px 1px #333;
+				text-align: center;
+			}
+			
+			.main > .content.style3 h2 {
+				color: #f9f9f9;
+				font-size: 30px;
+				text-shadow: 1px 1px 1px #333;
+				text-align: center;
+			}
+			
 			.main > .content.style2
 			{
 				background:	url('../images/d67_gradient_03.jpg') top/cover no-repeat;
@@ -937,10 +951,8 @@
 
 			.main > .content.style3
 			{
-				background:	url('images/bgtr.svg') top right no-repeat,
-							url('images/bgbl.svg') bottom left no-repeat,
-							url('images/overlay.png'),
-							linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+				background:	url('../images/d67_gradient.jpg') top/cover no-repeat;
+				text-align: left;	
 			}
 
 			.main > .content.style4
@@ -950,13 +962,15 @@
 			}
 
 
-	#first header {
-		background:	url('../images/d67_section_02.jpg') center/cover no-repeat;
-	}
+			#top header {
+				background:	url('../images/d67_section_02.jpg') center/cover no-repeat;
+			}
+		
 
-	#second header {
-		background: url('../images/d67_section_03.jpg') repeat;
-	}
+			#third header {
+				background: url('../images/d67_section_04.jpg') center/cover no-repeat;
+			}
+	
 
 /*********************************************************************************/
 /* About the Playwright                                                                        */
@@ -972,6 +986,36 @@
 /* Explore the Play
 /*********************************************************************************/
 
+
+	#second header {
+		background: url('../images/d67_section_03.jpg') repeat;
+		color: #333;
+	}
+	
+	#second header h2  {
+		color: #f9f9f9;
+		font-weight: bold;
+		text-shadow: 1px 1px 1px #333;
+	}	
+	#second header p
+	{
+		color: #f9f9f9;
+		text-shadow: 1px 1px 1px #333;
+	}	
+	
+	#second header a
+	{
+		border-bottom: none;
+	}	
+	#second header .scripts {
+		margin: 3em 0 0 0;
+	}
+	#second header .4u
+	{
+		padding: 0;
+		margin: 0;
+	}	
+	
 	.style2 .title
 	{
 		text-align: center;
@@ -983,7 +1027,11 @@
 		text-shadow: 1px 1px 1px #333;
 		text-align: center;
 	}
-
+	
+	#second > .row+.row>* {
+		padding: 0px
+	}
+	
 /*********************************************************************************/
 /* Voices of Detroit
 /*********************************************************************************/
@@ -999,41 +1047,14 @@
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
-	
-	#footer
-	{
-		position: relative;
-		margin: 0;
-		text-align: center;
-		padding: 4em 0 8em 0;
-		box-shadow: inset 0 1px 0 0 #e6e6e6;
-	}
-	
-		#footer .copyright
-		{
-			margin-top: 3em;
-			font-size: 0.8em;
-			color: #aaa;
+		#fourth p, #fourth ul, #fourth li {
+			font-size: .875em;
+			text-align: left;
 		}
-		
-			#footer .copyright a
-			{
-				color: inherit;
-			}
-			
-		#footer ul.icons
-		{
-		}	
-		
-			#footer ul.icons li
-			{
-			}
-			
-				#footer ul.icons a
-				{
-					box-shadow: inset 0 0 0 1px #d6d6d6;
-				}
 				
+		#fourth header a {
+			border-bottom: none;
+		}
 
 /*********************************************************************************/
 /* Poptrox                                                                       */
@@ -1245,10 +1266,11 @@ ul.emk-menu li {
 
 .emk-dropdown {
 	position: relative;
-	left: 0;
+	left: 15px;
+	top: -5px;
   	z-index: 1000;
   	display: none;
-  	float: right;
+  	float: none;
   	min-width: 160px;
   	padding: 10px;
   	list-style: none;
@@ -1286,7 +1308,7 @@ li.dropdown:hover > ul.emk-dropdown {
 			left: 0;
 	  		z-index: 1000;
   			display: none;
-  			float: right;
+  			
   			min-width: 160px;
   			padding: 10px;
   			list-style: none;
