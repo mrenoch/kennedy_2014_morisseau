@@ -962,7 +962,7 @@
 			}
 
 
-			#first header {
+			#top header {
 				background:	url('../images/d67_section_02.jpg') center/cover no-repeat;
 			}
 		
@@ -996,7 +996,6 @@
 		color: #f9f9f9;
 		font-weight: bold;
 		text-shadow: 1px 1px 1px #333;
-		margin: 0 0 1em 0;
 	}	
 	#second header p
 	{
@@ -1008,7 +1007,9 @@
 	{
 		border-bottom: none;
 	}	
-	
+	#second header .scripts {
+		margin: 3em 0 0 0;
+	}
 	#second header .4u
 	{
 		padding: 0;
@@ -1046,41 +1047,14 @@
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
-	
-	#footer
-	{
-		position: relative;
-		margin: 0;
-		text-align: center;
-		padding: 4em 0 8em 0;
-		box-shadow: inset 0 1px 0 0 #e6e6e6;
-	}
-	
-		#footer .copyright
-		{
-			margin-top: 3em;
-			font-size: 0.8em;
-			color: #aaa;
+		#fourth p, #fourth ul, #fourth li {
+			font-size: .875em;
+			text-align: left;
 		}
-		
-			#footer .copyright a
-			{
-				color: inherit;
-			}
-			
-		#footer ul.icons
-		{
-		}	
-		
-			#footer ul.icons li
-			{
-			}
-			
-				#footer ul.icons a
-				{
-					box-shadow: inset 0 0 0 1px #d6d6d6;
-				}
 				
+		#fourth header a {
+			border-bottom: none;
+		}
 
 /*********************************************************************************/
 /* Poptrox                                                                       */
@@ -1292,10 +1266,11 @@ ul.emk-menu li {
 
 .emk-dropdown {
 	position: relative;
-	left: 0;
+	left: 15px;
+	top: -5px;
   	z-index: 1000;
   	display: none;
-  	float: right;
+  	float: none;
   	min-width: 160px;
   	padding: 10px;
   	list-style: none;
@@ -1333,7 +1308,7 @@ li.dropdown:hover > ul.emk-dropdown {
 			left: 0;
 	  		z-index: 1000;
   			display: none;
-  			float: right;
+  			
   			min-width: 160px;
   			padding: 10px;
   			list-style: none;
