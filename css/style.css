@@ -791,8 +791,8 @@
 
 		.dark
 		{
-			color: #aaa;
-			color: rgba(255,255,255,0.65);
+			color: #fff;
+			
 		}
 			
 /*********************************************************************************/
@@ -952,7 +952,19 @@
 			.main > .content.style3
 			{
 				background:	url('../images/d67_gradient.jpg') top/cover no-repeat;
-				text-align: left;	
+				text-align: left;
+				font-size: .875em;	
+			}
+
+		 	.main > .content.style3 p {
+		 		text-align: center;
+		 		font-size: 1.15em;
+		 	} 
+		
+
+			.main > .content.style3 h4 {
+				font-weight: bold;
+				text-shadow: 1px 1px 1px #333;
 			}
 
 			.main > .content.style4
@@ -1010,6 +1022,11 @@
 	#second header .scripts {
 		margin: 3em 0 0 0;
 	}
+	
+	#second header .scripts img {
+		max-width: 100%;
+	}
+	
 	#second header .4u
 	{
 		padding: 0;
