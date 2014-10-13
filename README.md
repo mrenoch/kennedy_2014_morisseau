@@ -1,7 +1,8 @@
 This is the website created Detroit '67 by Dominique Morisseau, the recipient of the 2014 Edward M. Kennedy Prize for Drama Inspired by American History.
 
 
-== With contributions from: ==
+## With contributions from: 
+
 Dominique Morisseasu, playwright
 
 Stori Ayers
@@ -17,8 +18,8 @@ Jeremy McCarter
 Joel Fluent Greene, poet
 
 
+## Created by: ==
 
-== Created by: ==
 Columbia Center for New Media Teaching and Learning
 
 A. Maurice Matiz, Executive Producer
@@ -36,12 +37,13 @@ Therese Condit, Digital Video Specialist
 Jonah Bossewitch, Lead Technical Architect
 
 
-With support from:
+## With support from:
 Edward M. Kennedy Prize Board of Governors
 
 James Neal, Vice President for Information Services and University Librarian
 
-== Design ==
+## Design 
+
 This design is based on the theme
 Tessellate by HTML5 UP
 html5up.net | @n33co
