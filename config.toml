@@ -1,0 +1,10 @@
+baseurl = "http://kennedyprize.columbia.edu/winners/2014/morisseau"
+languageCode = "en-us"
+title = "Detroit '67 | A play by Dominique Morisseau"
+
+# These are the default settings, but to make them explicit
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+canonifyurls = true
+
