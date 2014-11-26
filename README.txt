@@ -33,7 +33,7 @@ Michael Deleon, Media and Production Coordinator
 
 Therese Condit, Digital Video Specialist
 
-Jonah Bossewitch, Lead Technical Architect
+Jonah Bossewitch, Technical Architect
 
 
 With support from:
